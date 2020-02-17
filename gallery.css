@@ -1,0 +1,206 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    position: absolute;
+    background:transparent;
+    width: 100%;
+    color: #707070;
+    z-index: 2;
+}
+
+header a{
+    color: #707070;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    list-style: none;
+    float: left;
+    padding: 0px 10px 0 10px;
+}
+
+header #branding{
+    font-size: 20px;
+    float: left;
+    margin: 0;
+}
+
+.active{
+    border-bottom: 3px solid #707070;
+}
+
+.searching{
+    position: absolute;
+    top: 53%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.searching div{
+    position: absolute;
+    left: -80px;
+    font-size: 18px;
+}
+
+.searching:hover > .search-txt{
+    background: white;
+    border-radius: 10px;
+    width:240px;
+    padding: 0 6px;
+}
+
+.searching:hover > .search-btn{
+    background: transparent;
+}
+
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header nav ul li{
+    position: relative;
+    padding: 40px 0px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+header nav ul li:last-child{
+    border-right: none;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 25px;
+    color: #707070;
+}
+
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    left: 130px;
+    top: 200px;
+}
+.Rectangle_9 {
+    position: absolute;
+    overflow: visible;
+    left: 560px;
+    top: 200px;
+}
+.Rectangle_13 {
+    position: absolute;
+    overflow: visible;
+    left: 990px;
+    top: 200px;
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    left: 345px;
+    top: 200px;
+}
+.Rectangle_10 {
+    position: absolute;
+    overflow: visible;
+    left: 775px;
+    top: 200px;
+}
+.Rectangle_14 {
+    position: absolute;
+    overflow: visible;
+    left: 1205px;
+    top: 200px;
+}
+.Rectangle_5 {
+    position: absolute;
+    overflow: visible;
+    left: 130px;
+    top: 455px;
+}
+.Rectangle_8 {
+    position: absolute;
+    overflow: visible;
+    left: 560px;
+    top: 455px;
+}
+.Rectangle_12 {
+    position: absolute;
+    overflow: visible;
+    left: 990px;
+    top: 455px;
+}
+.Rectangle_6 {
+    position: absolute;
+    overflow: visible;
+    left: 345px;
+    top: 455px;
+}
+.Rectangle_7 {
+    position: absolute;
+    overflow: visible;
+    left: 775px;
+    top: 455px;
+}
+.Rectangle_11 {
+    position: absolute;
+    overflow: visible;
+    left: 1205px;
+    top: 455px;
+}
+
+.galery{
+    position: absolute;
+    top: 20%;
+    font-size: 40px;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    border-bottom: 5px solid #707070;
+}
