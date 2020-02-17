@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Destination</title>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<style id="applicationStylesheet" type="text/css">
+	body{
+    padding: 0;
+    margin: 0;
+    background-color: #171717;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    position: absolute;
+    background:transparent;
+    width: 100%;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.search-txt2::placeholder{
+    color: white;
+    font-size: 22px;
+
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+	font-family: SF Compact Text;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    list-style: none;
+    float: left;
+    padding: 0px 10px 0 10px;
+}
+
+header #branding{
+    font-size: 20px;
+    float: left;
+    margin: 0;
+}
+
+.active{
+    border-bottom: 3px solid #ffffff;
+}
+
+.searching{
+    position: absolute;
+    top: 53%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.searching_destination{
+    top: 440px;
+    left: 538px;
+    width: 656px;
+    height: 48px;
+    text-align: left;
+    font: Regular 36px/50px Lao MN;
+    letter-spacing: 0.72px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.searching div{
+    position: absolute;
+    left: -80px;
+    font-size: 18px;
+}
+
+.searching:hover > .search-txt{
+    background: white;
+    border-radius: 10px;
+    width:240px;
+    padding: 0 6px;
+}
+
+.searching:hover > .search-btn{
+    background: transparent;
+}
+
+.search-btn{
+    color: #ffffff;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 20px;
+    width: 0px;
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header nav ul li{
+    position: relative;
+    padding: 40px 0px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+
+header nav ul li:last-child{
+    border-right: none;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 25px;
+    color: #ffffff;
+    
+}
+
+.search-btn2 {
+		position: absolute;
+		overflow: visible;
+		width: 1088px;
+		height: 97px;
+		left: 440px;
+		top: 350px;
+        
+}
+
+.search-txt2 {
+		position: absolute;
+		overflow: visible;
+		width: 657px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Lao MN;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(255,255,255,1);
+		letter-spacing: 0.2px;
+        padding: 5px;
+        background: transparent;
+        padding-left: 20px;
+}
+
+.search-btn3{
+    position: absolute;
+		overflow: visible;
+		left: 630px;
+		top: 10px;
+        font-size: 30px;
+
+}
+</style>
+<header>
+	<div class="container">
+		<div id="branding">
+			<h1>Vacation</h1>
+		</div>
+
+        <div class="searching">
+            <div><a class="active" href="Destination.html" style="font-size: 18px;">Destination</a></div>
+        </div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="about.html">About</a></li>
+			</ul>
+		</nav>
+    </div>
+
+    <section class="searching-box">
+    <div class="search-btn2">
+        
+        <input class="search-txt2" type="text" name="" placeholder="What destination are you looking for?">
+        <a class="search-btn3" href="#">
+            <i class="fas fa-search"></i>
+        </a>
+    
+    </div>
+</section>
+</header>
+</body>
+</html>
